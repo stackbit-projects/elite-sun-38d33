@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  <div id="page-wrapper" class="d-flex flex-column">
+
+    <main class="flex-shrink-0 container mt-5">
+      {% include navbar.html %}
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+  </div>
+
+  {% include analytics.html %}
+  {% include scripts.html %}
+
+</body>
+
+</html>
